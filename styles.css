@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+}
+
+header{
+  font-family: 'Comfortaa';
+  font-size: 200%;
+  padding: 10px 10px 10px 10px;
+  display: flex; justify-content: start;
+}
+header > div {
+  display: flex;
+  align-items: center;
+  background-color: mediumpurple;
+  border-radius: 10px;
+  padding: 10px 0 10px 10px;
+}
+header > div > h1{
+  color: white;
+}
+header > div > .h1Title{
+  color: white;
+}
+header > div > div{
+  width: 5px;
+  height: 100%;
+  display: flex;
+  background-color: white;
+  animation-name: barra;
+  animation-duration: 1s;
+  animation-iteration-count: 10000;
+  margin-right: 10px;
+}
+@keyframes barra {
+  50%  {background-color: mediumpurple;}
+  100% {background-color: white;}
+}
+
+.presentationSection{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.presentationSection > div{
+  display: block;
+}
+.presentationSection > div > h2{
+  font-family: "Montserrat";
+  color: mediumpurple;
+  font-size: 300%;
+}
+.portfolioSection {
+  padding: 10px;
+  font-family: "Montserrat";
+  color: mediumpurple;
+}
+.portfolioSection > div{
+  display: flex;
+}
+.portfolioSection > div > div{
+  width: 33%;
+  height: 100px;
+}
